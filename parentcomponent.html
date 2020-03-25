@@ -1,0 +1,32 @@
+<div style="margin-left: 30%;margin-top: 10%;"><h1 style="font-family: 'Times New Roman', Times, serif;font-weight:bold;color:green;">REGISTRATION PAGE</h1>
+<table>
+   
+    <tr><td><Label>NAME</Label></td>
+
+    <td><input [(ngModel)]="username"  placeholder="ENTER TEXT" /></td></tr>
+
+    <tr><td><Label>EMAIL</Label></td>
+
+    <td><input type="email" [(ngModel)]="email" placeholder="EMAIL"/></td></tr>
+
+    <tr><td><Label>PASSWORD</Label></td>
+
+    <td><input type="password" [(ngModel)]="password" placeholder="PASSWORD"/></td></tr>
+
+     <tr><td><Label>CITY</Label></td>
+    <td><input type="text"[(ngModel)]="city" placeholder="ENTER CITY"/></td></tr>
+
+    <tr><td><Label>COUNTRY</Label></td>
+    <td><input type="text"  [(ngModel)]="country"placeholder="ENTER COUNTRY"/></td></tr> 
+
+    <child></child>
+</table>
+<tr><td style="background-color:yellow;color: red;">NAME:{{username}}</td></tr><br/>
+<tr><td style="background-color:yellow;color: red;">EMAIL:{{email}} </td></tr><br/>
+<tr><td style="background-color:yellow;color: red;">PASSWORD:{{password}}</td></tr><br/>
+<tr><td style="background-color:yellow;color: red;">CITY:{{city}}</td></tr><br/>
+<tr><td style="background-color:yellow;color: red;">COUNTRY:{{country}}</td></tr><br/>
+
+
+
+</div>
